@@ -20,7 +20,7 @@
       <!-- header -->   
       <div class="header">
           <div class="logo">
-              <a href="#"><h2>Myweb</h2></a>
+              <a href="{{route('article.index')}}"><h2>Myweb</h2></a>
           </div>
 
           <div class="menu">
@@ -34,7 +34,12 @@
           </div>
 
           <div class="right">
-
+            <div style="padding:20px;border:1px solid black;">
+              <h3>Author</h3>
+              <p>name : SadCreeper</p>
+              <p>age : 22</p>
+              <p>Tel : 150-XXXX-XXXX</p>
+            </div>
           </div>    
       </div>
 
